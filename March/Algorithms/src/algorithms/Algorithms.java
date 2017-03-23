@@ -6,6 +6,7 @@
 package March.Algorithms.src.algorithms;
 
 import algorithms.BinaryTree;
+import algorithms.Permutation;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
@@ -22,9 +23,20 @@ public class Algorithms {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //repace string
+        //StringBuilder s = Permutation.replaceSpace("this is a car max");
+        
+        //System.out.print(s);
+         
+        String  s1 = Permutation.inPlaceSpace("this is a car max");
+        
+        System.out.print(s1);
+        // replace string inplace 
+        
+        
         // Binary Search Tree Sum = X on any path ...
         // The return the path and print the path
-        BinaryTreePathSum();
+       // BinaryTreePathSum();
         
         // Priority Queue
        // PriorityQueue();
