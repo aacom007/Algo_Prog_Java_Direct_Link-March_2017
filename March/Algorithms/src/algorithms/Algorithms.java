@@ -45,6 +45,10 @@ public class Algorithms {
         
     }
     
+    //Coding Challenge 2) You will be given N number of points as an array (CPPoint class). 
+    //CPPoint class will have x and y coordinate. 
+    //Find the closest k number of points from the origin. 
+    
     //BinaryTreePathSum
     public static void BinaryTreePathSum(){
         
